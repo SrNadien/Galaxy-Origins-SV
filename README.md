@@ -1,5 +1,5 @@
 
-                                               ![alt text](https://i.imgur.com/S4q4wQF.png)
+                                                ![image](https://github.com/SrNadien/Galaxy-Origins-SV/fotos/sv.png)
 
 
 
