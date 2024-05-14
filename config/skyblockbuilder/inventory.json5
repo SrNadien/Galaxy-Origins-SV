@@ -4,5 +4,5 @@
   "clearInv": false,
   
   // Should players' items be dropped when leaving a team? [default: true]
-  "dropItems": true
+  "dropItems": false
 }
