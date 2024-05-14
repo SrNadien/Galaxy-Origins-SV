@@ -1,8 +1,8 @@
 ---
-name: Errores Recetas
-about: Create a report to help us improve
+name: Bugs Mods
+about: Describe aquí el propósito de esta plantilla de incidencia.
 title: ''
-labels: Error Recetas
+labels: bug
 assignees: ''
 
 ---
