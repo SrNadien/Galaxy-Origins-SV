@@ -1,0 +1,10 @@
+{
+  "name": "Tren",
+  "colors": [
+    "A28D73",
+    "C1C0BF"
+  ],
+  "ingredient": {
+    "item": "create:track"
+  }
+}

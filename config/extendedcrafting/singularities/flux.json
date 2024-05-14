@@ -1,0 +1,10 @@
+{
+  "name": "Flux Block",
+  "colors": [
+    "1A191A",
+    "7D797D"
+  ],
+  "ingredient": {
+    "item": "fluxnetworks:flux_block"
+  }
+}

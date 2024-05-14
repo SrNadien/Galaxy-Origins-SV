@@ -1,0 +1,1341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "overpowered"
+	group: "54ED516BCA96BF76"
+	icon: "powah:energy_cell_creative"
+	id: "2166DD3F75BEF301"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "divinemc:textures/viejas/endgame.png"
+		rotation: 0.0d
+		width: 5.457831325301205d
+		x: -1.0d
+		y: -4.0d
+	}]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nota; Esta miel debe producirse a través de Abejas Productivas para que cuente en esta misión."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:basic_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
+					}
+				}
+			}
+			id: "2BB98FF362A444CA"
+			rewards: [{
+				id: "3C21EA150B17D78A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "7FDF924AE6B57788"
+					max_input: 2147283000L
+					type: "forge_energy"
+					value: 100000L
+				}
+				{
+					amount: 100000L
+					fluid: "mob_grinding_utils:fluid_xp_flowing"
+					id: "0C49FC33AF2FFBCF"
+					title: "100 Buckets of fluid xp"
+					type: "fluid"
+				}
+			]
+			title: "I'm just getting started"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2BB98FF362A444CA"
+				"17AAF6CC87272F7F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:advanced_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			id: "3D17DED808F475F4"
+			rewards: [{
+				id: "57A40EB62611FB49"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5B25867FB01AF4BB"
+					max_input: 2147283000L
+					type: "forge_energy"
+					value: 1000000L
+				}
+				{
+					amount: 100000L
+					fluid: "minecraft:water"
+					id: "5C8C637D42670813"
+					type: "fluid"
+				}
+				{
+					count: 180L
+					id: "5E97CC47DBE646BA"
+					item: "allthecompressed:netherite_block_1x"
+					type: "item"
+				}
+			]
+			title: "One MILLION Powers"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3D17DED808F475F4"
+				"51D750DD48D0E4E5"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:elite_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+			id: "2E6990BD6234A262"
+			rewards: [{
+				id: "311805FA104E825D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "66A124BDC604EED8"
+					max_input: 2147283000L
+					type: "forge_energy"
+					value: 100000000L
+				}
+				{
+					amount: 100000L
+					fluid: "minecraft:water"
+					id: "34025FA7266E2D79"
+					type: "fluid"
+				}
+			]
+			title: "This isn't even my final form"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2E6990BD6234A262"
+				"2060D5F0A503C89B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:ultimate_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "256000000"
+						}]
+					}
+				}
+			}
+			id: "7A3D525EF43B9351"
+			rewards: [{
+				id: "20ACBC93C1851015"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "206B9F23450DE22D"
+					max_input: 2147283000L
+					type: "forge_energy"
+					value: 100000000000L
+				}
+				{
+					amount: 100000L
+					fluid: "mekanismgenerators:fusion_fuel"
+					id: "13FCCA4BE67AFC16"
+					type: "fluid"
+				}
+			]
+			title: "Unlimited Cosmic Power"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BB98FF362A444CA"]
+			icon: "minecraft:budding_amethyst"
+			id: "73E95AD24BCABCA4"
+			rewards: [
+				{
+					id: "25D3CEDA7256C342"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C9279BFE38A3B70"
+					item: "gtceu:uv_battery_buffer_8x"
+					type: "item"
+				}
+				{
+					id: "7182D63889719207"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "thermal_extra:av_item_filter_augment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "0722A1AEF36B4EAF"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "245C53DDA23D1D4D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "289CC2F6A8478F14"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7F13784D10B23118"
+					item: "elementalcraft:unset_jewel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4B15B9CD73149159"
+					item: "allthecompressed:cobblestone_8x"
+					type: "item"
+				}
+			]
+			title: "Precision Budding"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BB98FF362A444CA"]
+			icon: "mekanism:alloy_atomic"
+			id: "17AAF6CC87272F7F"
+			rewards: [
+				{
+					id: "048E8BF0E09668D7"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "09B2B462FBD1C9F9"
+					item: "mekanism:module_silk_touch_unit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EC310E328DD7DAD"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7E987CFFCA1DC0A7"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "48B50D8AD8077201"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "02BCB3091F16DED6"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "286379C2784F7777"
+					item: "thermal:invar_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4BDE5B1A3C0BDE98"
+					item: "ars_nouveau:relay_warp"
+					type: "item"
+				}
+				{
+					count: 200L
+					id: "1AB9EE63194E6577"
+					item: "gtceu:gold_screw"
+					type: "item"
+				}
+			]
+			title: "Atomic Alloying"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D17DED808F475F4"]
+			icon: {
+				Count: 1b
+				id: "thermal:xp_crystal"
+				tag: { }
+			}
+			id: "186350F9924A925E"
+			rewards: [{
+				id: "2E0CCEFB75FBD10E"
+				item: "thermal_extra:machine_efficiency_augment_4"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "1EC4DDF145F125A2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "potionsmaster:calcinatediron_powder"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "6CAF812330397291"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "thermal_extra:dragonsteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "5B18DE47DF60A4D0"
+					item: {
+						Count: 1b
+						id: "thermal:xp_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Elemental Insights"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["186350F9924A925E"]
+			icon: "ae2:charged_certus_quartz_crystal"
+			id: "2F7385C5C33F0A54"
+			rewards: [
+				{
+					id: "61255B9F4F0B435B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "608DBF3F475C979A"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "055907FF05FADC74"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "180825D097FFDEBE"
+					item: "allthecompressed:vibranium_allthemodium_alloy_block_9x"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78A30D5146A0F517"
+					item: "fluxnetworks:gargantuan_flux_storage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3E856CE6B7CAC038"
+					item: "minecraft:warped_nylium"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 180L
+					id: "06654B7ABC5A0957"
+					item: "allthecompressed:gravel_8x"
+					type: "item"
+				}
+			]
+			title: "Charged Precision"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F7385C5C33F0A54"]
+			icon: "thermal:signalum_ingot"
+			id: "5BBE50190F15E5C2"
+			rewards: [
+				{
+					id: "738F796E22183DF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "209A1579F18EA14F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "50D79E8F0BEA5531"
+					item: "majruszsdifficulty:enderium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "2CEB018339ED61EA"
+					item: "thermal:signalum_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "47F7A659B63C9C19"
+					item: "thermal_extra:shellite_ingot"
+					type: "item"
+				}
+			]
+			title: "Luminous Processing"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BBE50190F15E5C2"]
+			description: [
+				"The &bEye of Legend&r will &6help you find Sky Villages&r!"
+				""
+				"[\"\",\"See the chapter \",{\"text\":\"Sky High Delights\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1AA9D32D3A6F9ECE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Sky High Delights chapter\"]}},\" for more information.\"]"
+			]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:balloon"
+				tag: { }
+			}
+			id: "51D750DD48D0E4E5"
+			rewards: [
+				{
+					id: "4D14A2CD04E338C2"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "682B61F99D6F1DD4"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_breeder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6483C9F973523FB6"
+					item: "betterfurnacesreforged:factory_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "Somewhere out there..."
+			tasks: [
+				{
+					consume_items: true
+					id: "243061F67174D2A5"
+					item: "gtceu:uv_compressor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "2A30E98837913D55"
+					item: {
+						Count: 1b
+						id: "powah:battery_blazing"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_portal_frame"
+					id: "00789CDA372B8EB1"
+					type: "dimension"
+				}
+			]
+			title: "Somewhere, out there..."
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E6990BD6234A262"]
+			icon: "mekanism:pellet_antimatter"
+			id: "098223A3129994C0"
+			rewards: [{
+				id: "0684457F86CFA779"
+				item: "thermal_extra:dynamo_output_augment_3"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "3C64CB8675CFDD15"
+					item: "thermal_extra:dragonsteel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "06DA647926324A44"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			title: "Swift Mana"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["098223A3129994C0"]
+			icon: "minecraft:nether_star"
+			id: "3EE49ADBA2E7E922"
+			rewards: [{
+				count: 4
+				id: "2EA5B12671CE8B94"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "0D44F8994F4CE60A"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5925764A59B377D2"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "7910D3FAF79E3A15"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			title: "Tears of Fire"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3EE49ADBA2E7E922"]
+			icon: "mekanism:module_locomotive_boosting_unit"
+			id: "518AB236A8459FAA"
+			rewards: [{
+				id: "072DC11AD6001A25"
+				item: "mekanism:module_locomotive_boosting_unit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "4C362B94E4EBCDCB"
+					item: "mysticalagradditions:insanium_gemstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "152B57BD3DA22E96"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "33674264D22F251B"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4494FE9460AD0FA8"
+					item: "mob_grinding_utils:gm_chicken_feed"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "262C04C194396703"
+					item: "mysticalagriculture:soulium_gemstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "645D8F1CBCADF09F"
+					item: "mysticalagradditions:insanium_gemstone_block"
+					type: "item"
+				}
+			]
+			title: "Crystallized Amber"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57DFABCAF4BD9D8F"]
+			icon: "allthemodium:unobtainium_vibranium_alloy_block"
+			id: "35DDEF1224B13D1E"
+			rewards: [{
+				id: "0498D82C0751E736"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4B915A18AFDA294A"
+					item: "thermal_extra:twinite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1D80053114F338B9"
+					item: "allthemodium:vibranium_allthemodium_alloy_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "47733D78264506BC"
+					item: "gtceu:red_steel_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "464169EB5AB9E0F5"
+					item: "allthemodium:unobtainium_vibranium_alloy_block"
+					type: "item"
+				}
+				{
+					id: "24364FB400D50410"
+					item: "mm_grinding:str_grinder_boss_dragon"
+					type: "item"
+				}
+			]
+			title: "Techno Obsidian Delights"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["518AB236A8459FAA"]
+			icon: "thermal:lumium_ingot"
+			id: "7D40A97046FDD7D1"
+			rewards: [{
+				id: "385F452E846E6CF0"
+				item: {
+					Count: 1b
+					id: "ae2things:disk_drive_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "408A5B1939BAE734"
+					item: "thermal:lumium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "7B6257DFE94CB1C6"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "0077F48014070794"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "1248260D8E83AF27"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+					type: "item"
+				}
+			]
+			title: "Arcane Creatio"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35DDEF1224B13D1E"]
+			icon: "thermal:enderium_ingot"
+			id: "31AD8A1087A9A5B2"
+			rewards: [
+				{
+					id: "71E47919E924F82A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13A63BC1A8CC6342"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "2437307ADF9908D2"
+					item: "thermal:enderium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0CE64DCB8D3ABA27"
+					item: "thermal:blizz_powder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0EDC23A322077DB1"
+					item: "thermal:basalz_powder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0B699354A3DC1404"
+					item: "thermal:blitz_powder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D599E7ACC5D13A7"
+					item: "powah:binding_card_dim"
+					type: "item"
+				}
+			]
+			title: "Dimensional Enderium"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23EFB88C8D70EFBD"]
+			description: [
+				"¡Al ingresar al Nether, el Eye of Legend se transformará automáticamente en el &bNether Eye of Legend&r!"
+				""
+				"¡Te indicará la dirección a las &6Nether Sky Islands&r, llenas de Hombres Cerdo con quienes intercambiar!"
+			]
+			icon: "thermal:fluid_cell_frame"
+			id: "2060D5F0A503C89B"
+			rewards: [
+				{
+					id: "55029228174FBC23"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+				{
+					id: "4C08DC151AA1D190"
+					item: {
+						Count: 1b
+						id: "bloodmagic:hellforged_resonator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4070FE18407D9811"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper we go"
+			tasks: [
+				{
+					consume_items: true
+					count: 100L
+					id: "01553FB4CC2A756B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "ae2:spatial_cell_component_128"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "7E4E73813A26A5B8"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					dimension: "bloodmagic:dungeon"
+					icon: "bloodmagic:altar"
+					id: "75147AF99BD7090B"
+					type: "dimension"
+				}
+			]
+			title: "Deeper and Farther"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A3D525EF43B9351"]
+			icon: "thermal_extra:twinite_ingot"
+			id: "0260AC00F3DE212A"
+			rewards: [
+				{
+					id: "1830FE3EF01C17EC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "ars_nouveau:glyph_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "546843DA35284611"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5600L
+					id: "1C173E5E3F72439D"
+					item: "bigreactors:blutonium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "1EC2190EBC28F34F"
+					item: "thermal_extra:twinite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "3EF3153628429FED"
+					item: "thermal_extra:upgrade_augment"
+					type: "item"
+				}
+			]
+			title: "Fluxed Fire"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0260AC00F3DE212A"]
+			icon: "bigreactors:ludicrite_ingot"
+			id: "1E9FC6880ABBE209"
+			rewards: [{
+				id: "04372A42960F2593"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "3F5248E7C0CC68A5"
+					item: "immersiveengineering:duroplast"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3EC53A5247A481B0"
+					item: "thermal_extra:dragonsteel_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "37EFC75B747660D3"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Eyes of Instability"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E9FC6880ABBE209"]
+			icon: "minecraft:dragon_breath"
+			id: "57DFABCAF4BD9D8F"
+			rewards: [{
+				id: "5673A1DA3AB66DD6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "71CDE4D3F971521D"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "63CE0C3C4DA0EF4B"
+					item: "hostilenetworks:end_prediction"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "672A530AFBECC01A"
+					item: "majruszsdifficulty:enderium_shard_locator"
+					type: "item"
+				}
+			]
+			title: "Draconic Predictions"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D40A97046FDD7D1"]
+			icon: "constructionwand:core_angel"
+			id: "23EFB88C8D70EFBD"
+			rewards: [
+				{
+					id: "5049841D1A9DD703"
+					item: "mekanism:module_laser_dissipation_unit"
+					type: "item"
+				}
+				{
+					id: "113EA840EACC06F9"
+					item: "mekanismgenerators:module_geothermal_generator_unit"
+					type: "item"
+				}
+				{
+					id: "0C2D04C8A1873620"
+					item: "mekanism:module_energy_unit"
+					type: "item"
+				}
+				{
+					id: "336DF500ECE36E88"
+					item: "mekanism:module_jetpack_unit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "1E9E7B682BF17CD5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "ars_nouveau:glyph_underfoot"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0A72B3ECC2DF6BFE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "ars_nouveau:glyph_flare"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "46AABF944331CE1E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "ars_nouveau:glyph_ignite"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "2333BA9AFC7BE1F3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "ars_nouveau:glyph_intangible"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "1064C1E4A2496642"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5C1B2FAB64803725"
+					item: "thermal_extra:soul_infused_block"
+					type: "item"
+				}
+			]
+			title: "Runic Hell"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31AD8A1087A9A5B2"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+				id: "thermal_extra:shellite_ingot"
+			}
+			id: "5EE642859AAFD214"
+			rewards: [
+				{
+					id: "57DDBECDF6E6ACE5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "powah:ender_cell_nitro"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "378FA68E83A4936C"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "3185839F65F94ABD"
+					item: "powah:nitro_crystal_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3C63EB2184E68358"
+					item: "powah:blazing_crystal_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65550590A04EFC8B"
+					item: "powah:niotic_crystal_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "37698D9BEDB56606"
+					item: "powah:spirited_crystal_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "77341A733B93EEAB"
+					item: "powah:nitro_crystal_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "703B840D5E2230FD"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5457007BF1E73FCD"
+					item: "thermal_extra:dragonsteel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "174E86A3C45731F2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+						id: "thermal_extra:shellite_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "Godforged Runes"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E63B1D72C2F0BA8"]
+			description: [
+				""
+				"&b¡Felicitaciones&r por completar el desafío final del modpack! Esperamos que su viaje por los cielos haya estado lleno de emoción y asombro. Esperamos verte nuevamente en tu próxima Aventura."
+				""
+				"- DivineMC Team"
+			]
+			icon: "minecraft:dragon_head"
+			id: "27365C7D954955B6"
+			rewards: [
+				{
+					id: "44694689AFBBD573"
+					item: "thermal:dynamo_disenchantment"
+					type: "item"
+				}
+				{
+					id: "5F465AEDC278CC02"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+			]
+			subtitle: "Fin."
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "1336E14B594E42DC"
+					title: "Kill the Ender Dragon, Trigon"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "4300818258AB8DA7"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "03D663D7684011E4"
+					item: {
+						Count: 1b
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:ender_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "31AA2FED3024A584"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "23CAB8A95985E8BE"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+			]
+			title: "The Power of Creation"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EE642859AAFD214"]
+			icon: "mekanism:scuba_mask"
+			id: "6E63B1D72C2F0BA8"
+			rewards: [
+				{
+					id: "08FF8A7CCBD42E8F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "36171CC4B0CE81F7"
+					item: "powah:energy_cell_nitro"
+					type: "item"
+				}
+				{
+					id: "19D5447C5EE67CF4"
+					item: "allthemodium:unobtainium_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "51CD5B17BB78B515"
+					item: "thermal:earth_charge"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "708CDBBC4A290016"
+					item: {
+						Count: 1b
+						id: "gag:time_sand_pouch"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "70E2C886B3C08AEA"
+					item: "majruszsdifficulty:undead_battle_standard"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "27B2197BD3DBBE13"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "06CBB20CE53156A5"
+					item: "thermal_extra:dynamo_fuel_augment_4"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "6B04C03DD985FBF9"
+					item: "mysticalagriculture:master_infusion_crystal"
+					type: "item"
+				}
+			]
+			title: "Essence of Legends"
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "End Game"
+}

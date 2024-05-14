@@ -1,0 +1,10 @@
+{
+  "name": "Ballon",
+  "colors": [
+    "605C60",
+    "C1B2C1"
+  ],
+  "ingredient": {
+    "item": "mekanismadditions:white_balloon"
+  }
+}

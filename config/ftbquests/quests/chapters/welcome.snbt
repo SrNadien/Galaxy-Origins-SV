@@ -1,0 +1,127 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "kubejs:star"
+	id: "5B00676D79306EA2"
+	images: [
+		{
+			click: ""
+			corner: true
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "tests:textures/ui/divinemc2.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			click: "https://discord.gg/3paFjuRfz9"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Join the Discord!"]
+			image: "kubejs:textures/quests/discord-logo-vector.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"ATM8 offers a curated modded experience for those who like kitchensink-style modpacks!"
+				""
+				"If you're new to modded MC, make sure to check out the &9Getting Started&r chapter to get you on your feet!"
+				""
+				"If you have any questions or issues, feel free to join the ATM discord!"
+			]
+			icon: "kubejs:star"
+			id: "3BC0A50886A3222B"
+			rewards: [{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "5A1784C5676CDC62"
+				title: "Welcome to All The Mods 8!"
+				type: "checkmark"
+			}]
+			title: "&dBienvenido a DivineMC!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
+				""
+				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
+				""
+				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+			]
+			icon: "ftbquests:book"
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"There are plenty of helpful commands within ATM. Here are a few:"
+				""
+				"&e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm"
+				""
+				"&e/back&r | If you teleport anywhere or die, you can use /back to teleport back to your previous location."
+				""
+				"&e/spawn&r | This will teleport you to the spawn of your overworld."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				title: "Useful Commands"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "Welcome"
+}

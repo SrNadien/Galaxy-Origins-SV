@@ -1,0 +1,10 @@
+{
+  "name": "Matrix",
+  "colors": [
+    "393936",
+    "74627D"
+  ],
+  "ingredient": {
+    "item": "hostilenetworks:prediction_matrix"
+  }
+}
