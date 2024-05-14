@@ -1,8 +1,8 @@
 ---
-name: Errores Recetas
+name: Bug Mods /plugins
 about: Crea un informe para ayudarnos a mejorar
 title: ''
-labels: Error Recetas
+labels: bug
 assignees: ''
 
 ---
