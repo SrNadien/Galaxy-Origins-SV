@@ -1,6 +1,6 @@
 ---
 name: Error Recetas
-about: Crea un informe para ayudarnos a mejorar
+about: Crea un informe para Reportar Error De Recetas
 title: ''
 labels: Error Recetas
 assignees: ''
