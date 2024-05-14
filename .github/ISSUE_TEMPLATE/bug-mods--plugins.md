@@ -1,6 +1,6 @@
 ---
 name: Bug Mods /plugins
-about: Crea un informe para ayudarnos a mejorar
+about: Crea un informe para Reportar Bugs Con Mods/Plugins
 title: ''
 labels: bug
 assignees: ''
