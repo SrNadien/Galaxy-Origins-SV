@@ -15,11 +15,20 @@ ServerEvents.recipes(event => {
     addRecipeRockGen('minecraft:water','minecraft:polished_granite','minecraft:granite','kubejs:rock_gen/rock_gen_granite')
     addRecipeRockGen('minecraft:water','minecraft:bone_block','minecraft:calcite','kubejs:rock_gen/rock_gen_calcite')
 	
-	//multiverso press
-
+        //multiverso press
+	event.recipes.thermal.press('alltheores:osmium_plate', ['#forge:ingots/osmium']).energy(2400)
+	event.recipes.thermal.press('allthemodium:vibranium_plate', ['allthemodium:vibranium_ingot']).energy(2400)
+	event.recipes.thermal.press('allthemodium:unobtainium_plate', ['allthemodium:unobtainium_ingot']).energy(2400)
+	event.recipes.thermal.press('allthemodium:allthemodium_plate', ['allthemodium:allthemodium_ingot']).energy(2400)
+	event.recipes.thermal.press('#forge:plates/brass', ['#forge:ingots/brass']).energy(2400)
+	event.recipes.thermal.press('create:brass_sheet', ['#forge:ingots/brass']).energy(2400)
+	event.recipes.thermal.press('alltheores:diamond_plate', ['minecraft:diamond']).energy(2400)
+        event.recipes.thermal.press('thermal:constantan_gear', ['4x thermal:constantan_plate']).energy(2400)
 
 
     //indusction smelter
+    event.recipes.thermal.smelter('thermal:steel_ingot', ['minecraft:iron_ingot', 'minecraft:coal']).energy(4800)
+    event.recipes.thermal.smelter('thermal:steel_block', ['minecraft:iron_block', 'minecraft:coal_block']).energy(4800)
     
    
 
