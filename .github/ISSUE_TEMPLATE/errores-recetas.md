@@ -1,14 +1,23 @@
 ---
-name: Bugs Mods
-about: Describe aquí el propósito de esta plantilla de incidencia.
+name: Errores Recetas
+about: Crea un informe para ayudarnos a mejorar
 title: ''
-labels: bug
+labels: Error Recetas
 assignees: ''
 
 ---
 
 **Describe el error**
 Una descripción clara y concisa de cuál es el error.
+
+Nick:
+
+Mod:
+
+Receta:
+
+item Id:
+Ejemplo item id:'avaritia:crystal_matrix_ingot'
 
 **Reproducir**
 Pasos para reproducir el comportamiento:
