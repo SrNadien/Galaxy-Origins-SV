@@ -82,7 +82,7 @@ ServerEvents.entityLootTables(event => {
 
     event.modifyEntity('minecraft:iron_golem', table => {
         table.addPool(pool => {
-            pool.addItem('nether_remastered:seal_crystal').randomChanceWithLooting(0.05, 0.05).killedByPlayer()
+            pool.addItem('nether_remastered:bottled_nether_essence').randomChanceWithLooting(0.05, 0.05).killedByPlayer()
         })
     })
 
