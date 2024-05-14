@@ -1,7 +1,7 @@
 
 
 
-                                                ![sv](https://github.com/SrNadien/Galaxy-Origins-SV/fotos/sv.png)
+                                                
 
 
 
