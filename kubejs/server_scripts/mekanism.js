@@ -527,5 +527,9 @@ event.replaceInput({id: 'mekanism:fuelwood_heater'}, 'mekanism:steel_casing', 'i
 event.replaceInput({id: 'mekanism:chemical_infuser'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
 
 
+//trituradora
+event.custom({"type":"mekanism:crushing","input":{"ingredient":{"item":"minecraft:end_stone"}},"output":{"count":2,"item":"occultism:crushed_end_stone"}}).id('galaxtorigenes:crushedendstone')
+   
+
 
 })
