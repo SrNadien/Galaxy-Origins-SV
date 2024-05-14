@@ -1,5 +1,5 @@
 
-                                  ![image](https://github.com/SrNadien/Galaxy-Origins-SV/assets/76491773/b48eccde-159a-4e02-8ccd-f24f62297e7f)
+                                               ![alt text](https://i.imgur.com/S4q4wQF.png)
 
 
 
