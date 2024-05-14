@@ -250,7 +250,7 @@ ServerEvents.recipes(event => {
     "amount": 20,
     "block": `alltheores:uranium_block`,
     "state": {
-      "lit": "true"
+      "lit": "false"
     }
   }).id('galaxtorigenes:uraniumblockheat')
 
@@ -261,7 +261,7 @@ ServerEvents.recipes(event => {
     "amount": 60,
     "block": `mekanism:superheating_element`,
     "state": {
-      "lit": "true"
+      "lit": "false"
     }
   }).id('galaxtorigenes:heateelementheat')
 
@@ -271,7 +271,7 @@ ServerEvents.recipes(event => {
     "amount": 15000,
     "block": 'create:blaze_burner',
     "state": {
-      "lit": "true"
+      "lit": "false"
     }
   }).id('galaxtorigenes:blazeburnerheat')
 
@@ -281,7 +281,7 @@ ServerEvents.recipes(event => {
     "amount":  100000,
     "block": 'mysticalagradditions:dragon_egg_crux',
     "state": {
-      "lit": "true"
+      "lit": "false"
     }
   }).id('galaxtorigenes:dragoncruxheat')
 
