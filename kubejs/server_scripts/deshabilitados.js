@@ -75,7 +75,8 @@ ServerEvents.recipes(event => {
        Item.of('alltheores:bronze_ore_hammer', '{Damage:0}'),
        'expandedstorage:white_mini_present',
        'expandedstorage:gold_chest',
-       'expandedstorage:mini_barrel'
+       'expandedstorage:mini_barrel',
+        'extendedcrafting:compressor'
     ]
     })
 
