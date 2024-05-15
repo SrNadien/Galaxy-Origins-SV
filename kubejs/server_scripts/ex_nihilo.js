@@ -302,9 +302,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "exnihilosequentia:heat",
     "amount": 20,
-    "block": `alltheores:uranium_block`,
-    "state": {
-      "lit": "false"
+    "block": `alltheores:uranium_block`
     }
   }).id('galaxtorigenes:uraniumblockheat')
 
@@ -313,9 +311,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "exnihilosequentia:heat",
     "amount": 60,
-    "block": `mekanism:superheating_element`,
-    "state": {
-      "lit": "false"
+    "block": `mekanism:superheating_element`
     }
   }).id('galaxtorigenes:heateelementheat')
 
@@ -323,9 +319,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "exnihilosequentia:heat",
     "amount": 15000,
-    "block": 'create:blaze_burner',
-    "state": {
-      "lit": "false"
+    "block": 'create:blaze_burner'
     }
   }).id('galaxtorigenes:blazeburnerheat')
 
@@ -333,9 +327,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "exnihilosequentia:heat",
     "amount":  100000,
-    "block": 'mysticalagradditions:dragon_egg_crux',
-    "state": {
-      "lit": "false"
+    "block": 'mysticalagradditions:dragon_egg_crux'
     }
   }).id('galaxtorigenes:dragoncruxheat')
 
