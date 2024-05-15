@@ -27,6 +27,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'betterfurnacesreforged:platinum_netherhot_upgrade' })
     event.remove({ output: 'betterfurnacesreforged:ultimate_upgrade' })
     event.remove({ output: 'betterfurnacesreforged:copper_furnace' })
+    event.remove({ output: 'nethersdelight:blackstone_furnace' })
+    event.remove({ output: 'nethersdelight:blackstone_blast_furnace' })
 
 
     //Horno de hierro
