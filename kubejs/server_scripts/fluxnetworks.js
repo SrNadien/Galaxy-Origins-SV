@@ -53,3 +53,22 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
     let particles = Math.max(4, Math.min(fluxCount >> 2, 64))
     level.sendParticles($ParticleTypes.LAVA, pos.x + 0.5, pos.y, pos.z + 0.5, particles, 0, 0, 0, 0)
 })
+
+
+ServerEvents.recipes(event => {
+	event.custom({
+      "type": "mekanism:metallurgic_infusing",
+      "chemicalInput": {
+        "amount": 40,
+        "tag": "mekanism:redstone"
+      },
+      "itemInput": {
+        "ingredient": {
+          "tag": "forge:dusts/obsidian"
+        }
+      },
+      "output": {
+        "item": "fluxnetworks:flux_dust"
+      }
+    }).id("galaxtorigenes:fluxdos")
+})
