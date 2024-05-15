@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 	
 	//eliminadas
 	event.remove({output:'mekanism:personal_chest'})
-  event.remove({output:'mekanism:atomic_disassembler'})
+        event.remove({output:'mekanism:atomic_disassembler'})
 	event.remove({output:'mekanism:robit'})
 	event.remove({output:'mekanism:flamethrower'})
 	event.remove({output:'mekanism:scuba_tank'})
@@ -49,11 +49,11 @@ ServerEvents.recipes(event => {
 	event.remove({output:'mekanism:combiner'})
 	event.remove({output:'immersiveengineering:concrete_leaded'})
 	event.remove({output:'hostilenetworks:empty_prediction'})
-  event.remove({output:'sophisticatedbackpacks:upgrade_base'})
+        event.remove({output:'sophisticatedbackpacks:upgrade_base'})
 	event.remove({output:'mekanism:chemical_oxidizer'})
 	event.remove({ id: 'mekanism:alloys/infused' });
 	event.remove({ id: 'mekanism:basic_control_circuit' });
-  event.remove({ id: 'mekanism:crusher' });
+        event.remove({ id: 'mekanism:crusher' });
 	
 	//recetas maquinas
 
@@ -524,6 +524,15 @@ event.replaceInput({id: 'mekanism:chemical_dissolution_chamber'}, 'mekanism:stee
 event.replaceInput({id: 'mekanism:painting_machine'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
 event.replaceInput({id: 'mekanismgenerators:fission_reactor_casing'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
 event.replaceInput({id: 'mekanism:fuelwood_heater'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanism:chemical_infuser'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+
+event.replaceInput({id: 'mekanismgenerators:fusion_reactor_frame'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanism:laser'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanism:resistive_heater'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanism:chemical_washer'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanismgenerators:gas_burning_generator'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanism:chemical_dissolution_chamber'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
+event.replaceInput({id: 'mekanismgenerators:fission_reactor_casing'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
 event.replaceInput({id: 'mekanism:chemical_infuser'}, 'mekanism:steel_casing', 'industrialforegoing:machine_frame_advanced')
 
 
