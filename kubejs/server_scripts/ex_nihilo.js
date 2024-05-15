@@ -242,6 +242,60 @@ ServerEvents.recipes(event => {
   }).id('galaxtorigenes:arcanecry')
 
 
+    event.custom({
+    "type": "exnihilosequentia:sifting",
+    "input": {
+      "item": 'avaritia:crystal_matrix'
+    },
+    "result": {
+      "item": 'allthemodium:raw_allthemodium'
+    },
+    "rolls": [
+      {
+        "chance": 0.35,
+        "mesh": "netherite"
+      }
+    ],
+    "waterlogged": false
+  }).id('galaxtorigenes:modium')
+
+
+      event.custom({
+    "type": "exnihilosequentia:sifting",
+    "input": {
+      "item": 'avaritia:neutron'
+    },
+    "result": {
+      "item": 'allthemodium:raw_vibranium'
+    },
+    "rolls": [
+      {
+        "chance": 0.35,
+        "mesh": "netherite"
+      }
+    ],
+    "waterlogged": false
+  }).id('galaxtorigenes:vibranium')
+
+
+    event.custom({
+    "type": "exnihilosequentia:sifting",
+    "input": {
+      "item": 'mekanism:sps_casing'
+    },
+    "result": {
+      "item": 'allthemodium:raw_unobtainium'
+    },
+    "rolls": [
+      {
+        "chance": 0.35,
+        "mesh": "netherite"
+      }
+    ],
+    "waterlogged": false
+  }).id('galaxtorigenes:unobtanio')
+
+
 
 
   //heat
